@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Github-User-Search-App/static/css/main.3bd18b5a.css",
+    "main.js": "/Github-User-Search-App/static/js/main.3a71962d.js",
+    "static/media/icon-website-dark.svg": "/Github-User-Search-App/static/media/icon-website-dark.dc91d1a5be09045ae4a6d73c26f8dbe9.svg",
+    "static/media/icon-website.svg": "/Github-User-Search-App/static/media/icon-website.b7923f6c1dae9717c079c60d8a5c82e5.svg",
+    "static/media/icon-company-dark.svg": "/Github-User-Search-App/static/media/icon-company-dark.2ce67937f1df462989bd0bf3797e55d1.svg",
+    "static/media/icon-company.svg": "/Github-User-Search-App/static/media/icon-company.6f78ffb334b191c8ed54d0c2a6f7cc25.svg",
+    "index.html": "/Github-User-Search-App/index.html",
+    "static/media/icon-twitter-dark.svg": "/Github-User-Search-App/static/media/icon-twitter-dark.d2646192cd558bcdf7909f6f9a55ece5.svg",
+    "static/media/icon-twitter.svg": "/Github-User-Search-App/static/media/icon-twitter.f6a2a695fbb260b28a9fd67dd4179ea5.svg",
+    "static/media/icon-search.svg": "/Github-User-Search-App/static/media/icon-search.0cc0c98424cc75d5e1dfbb9e3abb6785.svg",
+    "static/media/icon-location-dark.svg": "/Github-User-Search-App/static/media/icon-location-dark.f86e80b4f69c55d4ce30ed7399b65a3a.svg",
+    "static/media/icon-location.svg": "/Github-User-Search-App/static/media/icon-location.f11c5487a9922cbad40a27e8cc1cfaee.svg",
+    "main.3bd18b5a.css.map": "/Github-User-Search-App/static/css/main.3bd18b5a.css.map",
+    "main.3a71962d.js.map": "/Github-User-Search-App/static/js/main.3a71962d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bd18b5a.css",
+    "static/js/main.3a71962d.js"
+  ]
+}
