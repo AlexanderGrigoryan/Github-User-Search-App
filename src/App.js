@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header/Header";
+import Search from "./components/Search/Search";
+import { useState } from "react";
+import UserCard from "./components/UserCard/UserCard";
 
 function App() {
+  const [changeMode, setChangeMode] = useState(false);
+  const [search, setSearch] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={changeMode ? "AppDark" : "App"}>
+      <div className="container">
+        <Header changeMode={changeMode} setChangeMode={setChangeMode} />
+        <Search
+          search={search}
+          setSearch={setSearch}
+          changeMode={changeMode}
+          setChangeMode={setChangeMode}
+        />
+        {search !== "" ? (
+          <UserCard
+            search={search}
+            setSearch={setSearch}
+            changeMode={changeMode}
+            setChangeMode={setChangeMode}
+          />
+        ) : null}
+      </div>
     </div>
   );
 }
